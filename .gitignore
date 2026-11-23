@@ -1,0 +1,27 @@
+# Bağımlılıklar (En önemlisi)
+node_modules/
+
+# Çevre Değişkenleri ve Şifreler (Güvenlik için kritik)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Derleme (Build) Çıktıları (React, Vite, Next.js vb. için)
+dist/
+build/
+.next/
+out/
+
+# Hata ve Log Kayıtları
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# İşletim Sistemi ve Editör Gereksizleri
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
